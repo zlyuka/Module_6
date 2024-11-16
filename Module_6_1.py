@@ -34,13 +34,12 @@ class Predator(Animal):
 
 
 class Flower(Plant):
-    edible = True
-    pass
+    edible = False
 
 
 class Fruit(Plant):
     edible = True
-    pass
+
 
 a1 = Predator('Волк с Уолл-Стрит')
 a2 = Mammal('Хатико')
